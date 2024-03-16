@@ -2,12 +2,13 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet,Dimensions , Text, View,useWindowDimensions } from 'react-native';
 import { SafeAreaView } from 'react-native-web';
 import WelcomeScreen from './app/Screens/WelcomeScreen';
+import ViewImageScreen from './app/Screens/ViewImageScreen';
 export default function App() {
   
   //get the Dimensions of screen
   // console.log(useWindowDimensions())
   return (
-    <WelcomeScreen/>
+    <ViewImageScreen/>
     // <View 
     // style={{
     //   backgroundColor:"white",
